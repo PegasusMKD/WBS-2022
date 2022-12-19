@@ -27,5 +27,5 @@
           a foaf:Person ;
           foaf:name "Tijana" ;
           foaf:mbox_sha1sum "e76e95682ac63ed705394b9e0554557061452579" ;
-          rdfs:seeAlso <https://github.com/Tijana37/MyFOAFProfile/master/foaf.ttl>
+          rdfs:seeAlso <https://raw.githubusercontent.com/Tijana37/MyFOAFProfile/master/foaf.ttl>
       ] .

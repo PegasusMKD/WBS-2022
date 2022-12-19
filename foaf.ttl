@@ -1,1 +1,31 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/PegasusMKD/WBS-2022/master/foaf.ttl>
+    a foaf:PersonalProfileDocument ;
+    foaf:maker <https://raw.githubusercontent.com/PegasusMKD/WBS-2022/master/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/PegasusMKD/WBS-2022/master/foaf.ttl#me> ;
+    ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/PegasusMKD/WBS-2022/master/foaf.ttl#me>
+    a foaf:Person ;
+    foaf:name "Filip Jovanov" ;
+    foaf:title "Mr" ;
+    foaf:givenname "Filip" ;
+    foaf:family_name "Jovanov" ;
+    foaf:nick "pazzio" ;
+    foaf:mbox_sha1sum "30cd0d1a6d695f886aa0a4734bff608911944ab4" ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> ;
+    foaf:knows [
+          a foaf:Person ;
+          foaf:name "Milan" ;
+          foaf:mbox_sha1sum "377448e1085d79e6c703c73d8cb3f0c7d053f2ce" ;
+          rdfs:seeAlso <https://www.dropbox.com/s/f1tdpv7se06y3aq/foaf.ttl?dl=1>
+      ], [
+          a foaf:Person ;
+          foaf:name "Tijana" ;
+          foaf:mbox_sha1sum "e76e95682ac63ed705394b9e0554557061452579" ;
+          rdfs:seeAlso <https://github.com/Tijana37/MyFOAFProfile>
+      ] .
